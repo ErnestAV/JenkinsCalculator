@@ -23,24 +23,24 @@ public class Main {
 
                 System.out.println(calculator.add(a, b));
             }
-            if ("subtract".equals(command)) {
+            else if ("subtract".equals(command)) {
                 int a = Integer.parseInt(scan.next());
                 int b = Integer.parseInt(scan.next());
 
                 System.out.println(calculator.subtract(a, b));
             }
-            if ("divide".equals(command)) {
+            else if ("divide".equals(command)) {
                 int a = Integer.parseInt(scan.next());
                 int b = Integer.parseInt(scan.next());
 
                 System.out.println(calculator.divide(a, b));
             }
-            if ("fibonacci".equals(command)) {
+            else if ("fibonacci".equals(command)) {
                 int toFind = Integer.parseInt(scan.next());
 
                 System.out.println(calculator.fibonacciNumberFinder(toFind));
             }
-            if ("binary".equals(command)) {
+            else if ("binary".equals(command)) {
                 int toConvert = Integer.parseInt(scan.next());
 
                 System.out.println(calculator.intToBinaryNumber(toConvert));
